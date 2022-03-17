@@ -14,4 +14,9 @@ Git e GitHub: um guia de estudo de procedimentos e tópicos importantes
  E se gostou do conteúdo deixe uma estrela para incentivar o trabalho.
 </p>
 
+<h2>O que é git ?</h2>
+<!-- <p>
+
+</p> -->
+
 <br>[⬆ Voltar ao top](#inicio) <br>
