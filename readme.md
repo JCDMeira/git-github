@@ -15,8 +15,10 @@ Git e GitHub: um guia de estudo de procedimentos e tópicos importantes
 </p>
 
 <h2>O que é git ?</h2>
-<!-- <p>
-
-</p> -->
+<p>
+Git é uma ferramenta de versionamento de código, e serve literalmente para criar versões, igual quando temos aplicativos com 1.0, 1.2, 2.5 e por aí vai. 
+Não entrando em questões de como isso é numerado, a ideia é a mesma, é criado múltiplas versões do item em questão, que no caso se faça de código, ou mais especificamente arquivos de código.
+Porém o git é tão poderoso que pode criar versões de qualquer arquivo que se desejar.
+</p>
 
 <br>[⬆ Voltar ao top](#inicio) <br>
