@@ -29,8 +29,11 @@
   <p align="center">
    E se gostou do conteúdo deixe uma estrela para incentivar o trabalho.
   </p>
+  
+</br>
+<a name="id01"></a>
 
-  <h2>1.0 - O que é git ?</h2> <a name="id01"></a>
+  <h2>1.0 - O que é git ?</h2>
 
   </br>
 
@@ -105,6 +108,7 @@
   </p>
 
 </br>
+<a name="id01.1"></a>
   <h3>1.1 - Detalhes importantes</h3>
   <br>
 
