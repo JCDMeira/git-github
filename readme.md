@@ -159,6 +159,7 @@
 <div align='center'>
     <img src="./images/mudancas.png" alt="mostra mudanças ocorridas em arquivos supervisionados pelo sistema git">
 </div>
+</br>
 
 <p>
     A primeira parte indicada mostra que o código era como estava a esquerda, mas isso foi removido e então está em vermelho.
@@ -173,12 +174,30 @@
 </p>
 
 </br>
-<a name="id02.0"></a>
+<a name="id02.1"></a>
 <h3>2.1 - Ciclos de vida</h3>
 <br>
 
 <p>
     As mudanças monitoradas são demonstrada através de um poderoso sistema que pode ser chamado como relativo a estágios ou fases.
+</p>
+<img src="./images/git-lifecycle.png" alt="ciclos de vida dos arquivos no git">
+<br>
+<p>Cada fase representa algo que ocorre com os arquivos, há imagens com mais detalhes ou até mais comandos ou relações a estados. Mas o primeiro contato está relativo a um ciclo resumido.</p>
+<p>
+    De modo geral, após se linkar um repositório ao git, o sistema git está monitorando esses arquivos, mas eles não foram se quer adicionados para o monitoramentos, então ficam contando estado como untracked.
+</p>
+<p>
+    Ao usar o comando git add, e o estado do arquivo se torna staged, ou seja, agora o arquivo se torna monitorado pelo sistema git.
+</p>
+<p>
+    Após isso, se usar o git commit se torna unmodified, que diz que as alterações do arquivo estão fixadas, e também estão como não modificados e podem ser upados para o repositório remoto.
+</p>
+<p>
+    Qualquer alterações a partir do momento que o arquivo foi adicionado ao monitoramento git, ele se torna modified, indicando que a modificações que devem ser adicionadas.
+</p>
+<p>
+    Esses são os estados ou fases básicas dp git, a seguir será mencionado com mais detalhes os comandos e ações em geral.
 </p>
 
 <br>[⬆ Voltar ao top](#inicio) <br>
