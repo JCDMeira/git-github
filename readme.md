@@ -88,7 +88,7 @@
 
 </br>
 
-<p>Git tenta responder algumas perguntas básicas</p>
+<p>Git te responde algumas perguntas básicas sobre as alterações feitas.</p>
 
 </br>
 <ol>
@@ -100,7 +100,7 @@
 </ol>
 </br>
 
-<p>Isso gera uma estrutura de marcações de commit</p>
+<p>Isso gera uma estrutura de marcações de commit, que evidencia essas informações.</p>
 </br>
 
 <p align="center">
@@ -152,7 +152,7 @@
     Isso conta tanto em alterações no arquivo quanto o caminho dentro das pastas (diretórios).
 </p>
 <p>
-    Isso o permite monitorar todas as mudanças ocorridas, logo a partir do momento que é iniciado no projeto. Geralmente esse processo ocorre no repositório local, e a cada alteração isso é indicado e mapeado pela ferramenta
+    Isso o permite monitorar todas as mudanças ocorridas, logo a partir do momento que é iniciado no projeto. Geralmente esse processo ocorre no repositório local, e a cada alteração isso é indicado e mapeado pela ferramenta.
 </p>
 
 <br>
