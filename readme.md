@@ -13,6 +13,7 @@
 - [1.1 - Detalhes importantes](#id01.1)
 - [2.0 - Ta, mas como o git funciona?](#id02.0)
 - [2.1 - Ciclos de vida](#id02.1)
+- [3.0 - Criando um gitHub](#id03.0)
 
 </br>
 <p>
@@ -198,6 +199,34 @@
 </p>
 <p>
     Esses são os estados ou fases básicas dp git, a seguir será mencionado com mais detalhes os comandos e ações em geral.
+</p>
+
+</br>
+<a name="id03.0"></a>
+<h3>3.0 - Criando um gitHub</h3>
+<br>
+
+<p>
+    O processo de criação de um gitHub é bem simples é preciso acessar o site do gitHub através do link <a href="https://github.com">https://github.com</a>.
+</p>
+
+<p>
+    A tela será a seguinte:
+</p>
+
+<div align='center'>
+<img style='width: 800px' src="./images/gitHub.png" alt="página gitHub">
+</div>
+</br>
+<p>
+    Deve se clicar em <strong>Sign up</strong> no canto superior direito.
+</p>
+
+<p>
+    Então preencher os dados comuns, que são email, senha e nome de usuário.
+</p>
+<p>
+    Também será pedido um número de código que foi enviado para o seu e-mail. Como uma confirmação para e-mail válido.
 </p>
 
 <br>[⬆ Voltar ao top](#inicio) <br>
