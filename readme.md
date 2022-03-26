@@ -1,5 +1,5 @@
 <h1 align='center' name='inicio'>
-    Git e GitHub: um guia de estudo de procedimentos e tópicos importantes
+    Git e GitHub: um guia de estudo, procedimentos e tópicos importantes
 </h1>
 
 <div align='center'>
@@ -200,7 +200,6 @@
 <p>
     Esses são os estados ou fases básicas dp git, a seguir será mencionado com mais detalhes os comandos e ações em geral.
 </p>
-
 </br>
 <a name="id03.0"></a>
 <h3>3.0 - Criando um gitHub</h3>
@@ -213,7 +212,6 @@
 <p>
     A tela será a seguinte:
 </p>
-
 <div align='center'>
 <img style='width: 800px' src="./images/gitHub.png" alt="página gitHub">
 </div>
@@ -226,7 +224,58 @@
     Então preencher os dados comuns, que são email, senha e nome de usuário.
 </p>
 <p>
-    Também será pedido um número de código que foi enviado para o seu e-mail. Como uma confirmação para e-mail válido.
+    Também será pedido um número de código que foi enviado para e-mail informado nos daos. Como uma confirmação para e-mail válido.
+</p>
+<p>
+    Daí é só escolher se você quer receber notificações do gitHub e responder o captcha para concluir a primeira etapa.
+</p>
+<p>
+    O procedimento pode ser visto na gif abaixo :
+</p>
+</br>
+
+<div align='center'>
+    <img style='width: 800px' src="./images/criando00.gif" alt="procedimento de criar um gitHub">
+</div>
+
+</br>
+
+<p>
+    Logo depois há algumas configurações a se preencher
 </p>
 
+<p>
+    O primeiro é a pergunta de quantas pessaos atuam na equipe, no geral será respondido "apenas eu", porque é sua conta pessoal. 
+</p>
+
+</br>
+<div align='center'>
+    <img style='width: 800px' src="./images/criando01.png" alt="procedimento de criar um gitHub">
+</div>
+
+</br>
+<p>
+    O segundo são possíveis usos para sua conta do gitHub, se tiver focos em mente já é legal colocar. Se não tiver, recomendo colocar pelo menos o último, que menciona comunidade. 
+</p>
+
+</br>
+<div align='center'>
+    <img style='width: 800px' src="./images/criando02.png" alt="procedimento de criar um gitHub">
+    <img style='width: 800px' src="./images/criando03.png" alt="procedimento de criar um gitHub">
+    <img style='width: 800px' src="./images/criando04.png" alt="procedimento de criar um gitHub">
+</div>
+
+</br>
+<p>
+    O terceiro tópico é sobre escolher modalidade free ou modalidade paga, aqui escolha o free que é mais que suficiente.
+</p>
+
+</br>
+<div align='center'>
+    <img style='width: 800px' src="./images/criando05.png" alt="procedimento de criar um gitHub">
+</div>
+
+<p>
+    E pronto, sua conta esta criada e já é possível criar repositórios com projetos, gerar commits e participar da comunidade em si.
+</p>
 <br>[⬆ Voltar ao top](#inicio) <br>
