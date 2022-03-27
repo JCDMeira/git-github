@@ -14,6 +14,7 @@
 - [2.0 - Ta, mas como o git funciona?](#id02.0)
 - [2.1 - Ciclos de vida](#id02.1)
 - [3.0 - Criando um gitHub](#id03.0)
+- [4.0 - Criando um repositório](#id04.0)
 
 </br>
 <p>
@@ -278,4 +279,39 @@
 <p>
     E pronto, sua conta esta criada e já é possível criar repositórios com projetos, gerar commits e participar da comunidade em si.
 </p>
+
+</br>
+<a name="id04.0"></a>
+<h3>4.0 - Criando um repositório</h3>
+<br>
+
+<p>
+    Primeiramente, cabe dizer que um repositório é no sentido do dicionário, um lugar onde se armazena, guarda, arquiva ou coleciona alguma coisa. E nesse caso, um repositório git se destina, primáriamente, a guardar projetos e códigos. Assim como temos a ferramenta git monitorando as versões dos nossos arquivos dentro de um projeto, teremos os repositórios para alocar os projetos e suas estruturas de pastas e arquivos. 
+</p>
+
+<p>
+    Esses repositórios são um ambiente remoto, que alocam os dados em uma espécie de nuvem. Assim, nossos códigos versionados podem ficar em um lugar seguro. E nos permite compartilhar códigos e projetos, demonstrar a evolução dos projetos em si e da nossa maneira de codar e trabalhar com projetos. Além de também nos permitir criar uma espécie de portfólio e mapa de trajetória. 
+</p>
+<p>
+    Sendo também possível ter contato com códigos e projetos de outros programadores e projetos open source.
+</p>
+
+<p>
+    Para criar um repositório é um processo bem simples. Basta clicar no simbolo + (de mais) no canto direito superior da página. Estará entre o sininho de notificações e a foto de perfil.
+</p>
+
+<br>
+<div align='center'>
+    <img style='width: 800px' src="./images/repositorio01.png" alt="procedimento de criar um gitHub">
+</div>
+
+<p>
+    Ao clicar aparecerá opções. Então aparecerá opções, a primeira é para criar um novo repositório.
+</p>
+
+<br>
+<div align='center'>
+    <img style='width: 600px' src="./images/repositorio02.png" alt="procedimento de criar um gitHub">
+</div>
+
 <br>[⬆ Voltar ao top](#inicio) <br>
