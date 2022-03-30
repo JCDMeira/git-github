@@ -314,4 +314,36 @@
     <img style='width: 600px' src="./images/repositorio02.png" alt="procedimento de criar um gitHub">
 </div>
 
+<p>
+    Irá abrir uma janela conforme abaixo.
+</p>
+
+<br>
+<div align='center'>
+    <img style='width: 800px' src="./images/repositorio03.png" alt="procedimento de criar um gitHub">
+</div>
+
+<p>
+    você estará colocado como dono do repositório (owner), e será necessário um nome para ele (repository name). A descrição (Description) do que é esse repositório é opicional, eu costumo colocar após já fazer coisas no repositório, pois terei uma visão mais clara de como descrevê-lo, porém se decidir adicionar já na abertura já pode também.
+</p>
+<p>
+    Uma opção logo abaixo da descrição é se o repositório será público (public) ou privado (private), se for público qualquer pessoa que acessar seu perfil poderá ver o repositório, se for privado apenas você ou quem tiver permição poderá ver. É importante colocar como público caso sejam projetos pessoais e para portfólio.
+</p>
+<p>
+    Outro detalhe é que commits em repositórios privados só contam se você ativar a opção de mostrar contribuições privadas. Caso contrário, qualquer commit feito em repositórios privados não irão contar no seu histórico de contribuições.
+</p>
+
+<br>
+<div align='center'>
+    <img style='width: 800px' src="./images/repositorio03.05.png" alt="procedimento de criar um gitHub">
+</div>
+
+<p>
+    A última parte de configurações é adicionar ou não um readme (para descrever o repositório e informações importantes), um .gitignore (que indica arquivos e diretórios que o git não irá monitorar) e uma licença. Esses inicialmente ficam como opcionais mesmo, mesmo criando sem é possível criar depois.
+</p>
+
+<p>
+    <strong>Preenchendo tudo é só clicar em 'create repository'</strong> e pronto, já temos o repositório criado.
+</p>
+
 <br>[⬆ Voltar ao top](#inicio) <br>
