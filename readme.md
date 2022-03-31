@@ -15,6 +15,7 @@
 - [2.1 - Ciclos de vida](#id02.1)
 - [3.0 - Criando um gitHub](#id03.0)
 - [4.0 - Criando um repositório](#id04.0)
+- [5.0 - Adicionar credenciais ao vs code](#id05.0)
 
 </br>
 <p>
@@ -345,5 +346,10 @@
 <p>
     <strong>Preenchendo tudo é só clicar em 'create repository'</strong> e pronto, já temos o repositório criado.
 </p>
+
+</br>
+<a name="id04.0"></a>
+<h3>5.0 - Adicionar credenciais ao vs code</h3>
+<br>
 
 <br>[⬆ Voltar ao top](#inicio) <br>
