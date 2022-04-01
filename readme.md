@@ -41,7 +41,7 @@
 <a name="id01"></a>
 <h2>1.0 - O que é git ?</h2>
 <div align='right'>
-    <label for="inicio">⬆</label>
+    <a href="#inicio">⬆ Voltar ao top</a>
 </div>
 
 </br>
@@ -148,7 +148,7 @@
 <a name="id02.0"></a>
 <h3>2.0 - Ta, mas como o git funciona?</h3>
 <div align='right'>
-    <label for="inicio">⬆</label>
+    <a href="#inicio">⬆ Voltar ao top</a>
 </div>
 <br>
 
@@ -211,7 +211,7 @@
 <a name="id03.0"></a>
 <h3>3.0 - Criando um gitHub</h3>
 <div align='right'>
-    <label for="inicio">⬆</label>
+    <a href="#inicio">⬆ Voltar ao top</a>
 </div>
 <br>
 
@@ -293,7 +293,7 @@
 <a name="id04.0"></a>
 <h3>4.0 - Criando um repositório</h3>
 <div align='right'>
-    <label for="inicio">⬆</label>
+    <a href="#inicio">⬆ Voltar ao top</a>
 </div>
 <br>
 
