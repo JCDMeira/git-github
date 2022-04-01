@@ -348,8 +348,79 @@
 </p>
 
 </br>
-<a name="id04.0"></a>
+<a name="id05.0"></a>
 <h3>5.0 - Adicionar credenciais ao vs code</h3>
 <br>
+
+<p>
+    Adicionar suas credenciais é necessário para que os commits fiquem registrados no seu nome. Sendo fácil de entender quem fez que alteração e também para preencher o histórico de commits na página inicial do seu gitHub.
+</p>
+<p>
+    O processo todo é bem fácil, podendo entrar no terminal integrado do vs code pra isso, sendo esse terminal qual for. O processo vai ser clicar em terminal na parte superior esquerda.
+</p>
+
+<br>
+<div align='center'>
+    <img style='width: 800px' src="./images/credenciais01.png" alt="procedimento de criar um gitHub">
+</div>
+<br>
+
+<p>
+    E então o terminal que está definido como padrão do vs code irá abrir na parte inferior. Sendo o meu o ZSH.
+</p>
+
+<br>
+<div align='center'>
+    <img style='width: 800px' src="./images/credenciais02.png" alt="procedimento de criar um gitHub">
+</div>
+<br>
+
+<p>
+    O processo pode ser visto abaixo:
+</p>
+
+<br>
+<div align='center'>
+    <img style='width: 800px' src="./images/credenciais03.gif" alt="procedimento de criar um gitHub">
+</div>
+<br>
+
+<p>
+    Então será inserido o nome e e-mail de usuário.
+</p>
+
+<p>
+    Para configurar as credenciais para apenas o projeto que está mexendo no momento, deve se usar os comandos abaixo, setando nome e e-mail para o projeto, de modo local.
+</p>
+
+```bash
+# configura o nome de usuário de modo local
+git config  user.name "Um nome maneiro"
+```
+
+```bash
+# configura o email de usuário de modo local
+git config  "user.email email.maneiro@exemplo.br"
+```
+
+<p>
+    Já para configurar o nome e e-mail de forma global, se usa o mesmo comando, mas adicionando a flag --global. Que faz com que o nome e usuário sejam definidos para o computador. E todo projeto que você mexer com esse computador irá usar essas credenciais por padrão, a não ser que seja mudado ou configurado um outro nome e e-mail localmente para um projeto após sua abertura.
+</p>
+
+```bash
+# configura o nome de usuário de modo global
+git config --global user.name "Um nome maneiro"
+```
+
+```bash
+# configura o email de usuário de modo global
+git config --global user.email "email.maneiro@exemplo.br"
+```
+
+<p>
+    Após qualquer um dos comandos de configuração o usuário está configurado e é possível enviar commits assinados por você.
+</p>
+
+<strong>Só cabe lembrar que não é recomendado usar configurações globais em um computador que possa ser acessado por várias pessoas.</strong>
 
 <br>[⬆ Voltar ao top](#inicio) <br>
