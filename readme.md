@@ -400,7 +400,7 @@ git config  user.name "Um nome maneiro"
 
 ```bash
 # configura o email de usuário de modo local
-git config  "user.email email.maneiro@exemplo.br"
+git config  user.email "email.maneiro@exemplo.br"
 ```
 
 <p>
