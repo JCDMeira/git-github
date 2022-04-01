@@ -1,4 +1,4 @@
-<h1 align='center' name='inicio'>
+<h1 align='center' name='inicio' id='inicio'>
     Git e GitHub: um guia de estudo, procedimentos e tópicos importantes
 </h1>
 
@@ -39,8 +39,10 @@
 
 </br>
 <a name="id01"></a>
-
 <h2>1.0 - O que é git ?</h2>
+<div align='right'>
+    <label for="inicio">⬆</label>
+</div>
 
 </br>
 
@@ -145,6 +147,9 @@
 </br>
 <a name="id02.0"></a>
 <h3>2.0 - Ta, mas como o git funciona?</h3>
+<div align='right'>
+    <label for="inicio">⬆</label>
+</div>
 <br>
 
 <p>
@@ -205,6 +210,9 @@
 </br>
 <a name="id03.0"></a>
 <h3>3.0 - Criando um gitHub</h3>
+<div align='right'>
+    <label for="inicio">⬆</label>
+</div>
 <br>
 
 <p>
@@ -284,6 +292,9 @@
 </br>
 <a name="id04.0"></a>
 <h3>4.0 - Criando um repositório</h3>
+<div align='right'>
+    <label for="inicio">⬆</label>
+</div>
 <br>
 
 <p>
@@ -348,8 +359,11 @@
 </p>
 
 </br>
-<a name="id05.0"></a>
+<a name="id05.0"></a> 
 <h3>5.0 - Adicionar credenciais ao vs code</h3>
+<div align='right'>
+    <label for="inicio">⬆</label>
+</div>
 <br>
 
 <p>
