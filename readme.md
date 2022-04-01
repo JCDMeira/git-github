@@ -362,7 +362,7 @@
 <a name="id05.0"></a> 
 <h3>5.0 - Adicionar credenciais ao vs code</h3>
 <div align='right'>
-    <a href="inicio">⬆ Voltar ao top</a>
+    <a href="#inicio">⬆ Voltar ao top</a>
 </div>
 <br>
 
