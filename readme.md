@@ -153,7 +153,7 @@
 <br>
 
 <p>
-    Como o git é um sistema de gerenciamento de controle de versões de código (arquivos e documentos se olhar de modo mais geral), ele possui resursos avançados para monitorar e acompanhar o que os arquivos do projeto em si.
+    Como o git é um sistema de gerenciamento de controle de versões de código (arquivos e documentos se olhar de modo mais geral), ele possui recursos avançados para monitorar e acompanhar o que os arquivos do projeto em si.
 </p>
 
 <p>
