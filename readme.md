@@ -16,6 +16,7 @@
 - [3.0 - Criando um gitHub](#id03.0)
 - [4.0 - Criando um repositório](#id04.0)
 - [5.0 - Adicionar credenciais ao vs code](#id05.0)
+- [6.0 - Conectando um repositório a uma origen remota](#id06.0)
 
 </br>
 <p>
@@ -436,5 +437,46 @@ git config --global user.email "email.maneiro@exemplo.br"
 </p>
 
 <strong>Só cabe lembrar que não é recomendado usar configurações globais em um computador que possa ser acessado por várias pessoas.</strong>
+
+</br>
+<a name="id06.0"></a> 
+<h3>6.0 - Conectando um repositório a uma origen remota</h3>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
+<br>
+
+<p>
+    Para enviar os commits feitos localmente para um repositório remoto é preciso definir a origem em que se encontra esse repositório. Há mais de uma maneira de fazer isso, mas talvez a mais rápida e simples é via um endereço HTTPS. Que já é fornecido pelo gutHub ao criar uma repositório.
+</p>
+
+<br>
+<img src="./images//conectando01.png" alt="conectando repositório">
+<br>
+
+<p>
+    Após criar o repositório no github, crie uma pasta local que conterá seu projeto, servindo como um repositório local. Nele digite o comando de git init para iniciar o monitoramento git nos arquivos.
+</p>
+<br>
+
+```bash
+git init
+```
+
+<p>
+    Então pegue o comando da primeira linha do segundo bloco da imagem anterior.
+</p>
+
+```bash
+git remote add origin https://github.com/JCDMeira/creando-rep.gi
+```
+
+<p>
+    Isso adicionará a origin ao repositório, sendo possível agora adicionar os arquivos e subir para o repositório remoto.
+</p>
+
+<P>
+    Já quanto ao processo de subir os dados propriamente ditos vamos ver em breve mais a frente.
+</P>
 
 <br>[⬆ Voltar ao top](#inicio) <br>
