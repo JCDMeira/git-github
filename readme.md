@@ -523,4 +523,73 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
     Permitindo com isso entender quais são os próximos passos para manipular esses arquivos.
 </p>
 
+</br>
+<a name="id07.2"></a>
+<h2>7.1 - Git log</h2>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
+</br>
+
+<p>
+    O comando <strong>git log</strong> permite que seja visto o histórico de commits do projeto. 
+</p>
+<p>
+    O log simples mostra apenas os últimos commits feitos, mas é possível usar <strong>git log --all</strong> para mostrar todos os commits feitos.
+</p>
+<p>
+    Outro fator importante de se notar é que o comando abre um modo diferente no terminal. <strong>E para sair do modo log é só apertar a tecla q do teclado</strong>
+</p>
+
+<img src="./images/log01.png" alt="">
+
+<p>
+    Outra função importante do log, mas que é pouco conhecida, é que há uma função de pesquisa no comando. Enquanto na tela de log se teclar <strong>/</strong> entra em um modo de pesquisa, que permite pesquisar por palavras que aparecem nas mensagens dos commits.
+</p>
+
+<img src="./images/log02.png" alt="">
+
+<p>
+    Após executar uma pesquisa é possível voltar para o todo dos commits apertando a tecla <strong>b</strong>
+</p>
+
+<p>
+    Além disso há outras flags além de all que podem ser úteis
+</p>
+
+<p>
+    Pesquisar commits anteriores a uma data:
+    <strong>git log --before="2022-04-01"</strong>
+</p>
+
+<p>
+    Pesquisar commits posteriores a uma data:
+    <strong>git log --after="2022-04-01"</strong>
+</p>
+
+<p>
+    Pesquisar commits entre datas:
+    <strong>
+        git log --before="2022-04-01" --after="2022-06-01" 
+    </strong>
+</p>
+
+<p>
+    Pesquisar commits desde:
+    <strong>
+        git log --since="2 days ago"
+    </strong>
+</p>
+
+<p>
+    pesquisar commits por autor:
+    <strong>
+        git log --author="jean"
+    </strong>
+</p>
+
+<p>
+    Esses recursos permitem fazer uma busca mais focada nos commits feitos. 
+</p>
+
 <br>[⬆ Voltar ao top](#inicio) <br>
