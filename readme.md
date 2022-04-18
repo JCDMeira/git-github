@@ -10,13 +10,21 @@
 # 📋 Indíce
 
 - [1.0 - O que é git ?](#id01)
-- [1.1 - Detalhes importantes](#id01.1)
+  - [1.1 - Detalhes importantes](#id01.1)
 - [2.0 - Ta, mas como o git funciona?](#id02.0)
-- [2.1 - Ciclos de vida](#id02.1)
+  - [2.1 - Ciclos de vida](#id02.1)
 - [3.0 - Criando um gitHub](#id03.0)
 - [4.0 - Criando um repositório](#id04.0)
 - [5.0 - Adicionar credenciais ao vs code](#id05.0)
 - [6.0 - Conectando um repositório a uma origen remota](#id06.0)
+- [7.0 - Comandos](#id07.0)
+  - [7.1 - Git status](#id07.1)
+  - [7.2 - Git log](#id07.2)
+  - [7.3 - Git add](#id07.3)
+  - [7.4 - Git commit](#id07.4)
+  - [7.5 - Git push](#id07.5)
+  - [7.6 - Git pull](#id07.6)
+  - [7.7 - Git checkout](#i70.7)
 
 </br>
 <p>
@@ -484,5 +492,35 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
 <P>
     Já quanto ao processo de subir os dados propriamente ditos vamos ver em breve mais a frente.
 </P>
+
+</br>
+<a name="id07.0"></a>
+<h2>7.0 - Comandos</h2>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
+</br>
+
+<p>
+    No geral tudo no git será realizado por comandos, e aprender a manipular as situações via comandos é essencial. Até é possível hoje em dia manipular tudo via interface, mas isso te torna nada mais que um apertador de botões.
+</p>
+<p>
+    Aprender realmente a usar os comandos é que te torna um melhor profissional, e após masterizar os comandos, mesmo que não seja completamente (isso seria muito difícil), é possível usar a interface a seu favor em alguns casos.
+</p>
+
+</br>
+<a name="id07.1"></a>
+<h2>7.1 - Git status</h2>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
+</br>
+
+<p>
+    O comando <strong>git status</strong> serve para ver os status atuais de cada arquivo no projeto. Permitindo ver em que momento do ciclo de vida eles estão.
+</p>
+<p>
+    Permitindo com isso entender quais são os próximos passos para manipular esses arquivos.
+</p>
 
 <br>[⬆ Voltar ao top](#inicio) <br>
