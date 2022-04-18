@@ -127,6 +127,9 @@
 </br>
 <a name="id01.1"></a>
 <h3>1.1 - Detalhes importantes</h3>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
 <br>
 
 <li>
@@ -185,6 +188,9 @@
 </br>
 <a name="id02.1"></a>
 <h3>2.1 - Ciclos de vida</h3>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
 <br>
 
 <p>
