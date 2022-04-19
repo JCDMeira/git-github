@@ -535,7 +535,7 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
     O comando <strong>git log</strong> permite que seja visto o histórico de commits do projeto. 
 </p>
 <p>
-    O log simples mostra apenas os últimos commits feitos, mas é possível usar <strong>git log --all</strong> para mostrar todos os commits feitos.
+    O log simples mostra apenas os últimos commits feitos, mas é possível usar <strong>git log --all</strong> para mostrar todos os commits feitos. Ou o <strong>git log --oneline</strong> para mostrar os últimos com informações resumidas.
 </p>
 <p>
     Outro fator importante de se notar é que o comando abre um modo diferente no terminal. <strong>E para sair do modo log é só apertar a tecla q do teclado</strong>
