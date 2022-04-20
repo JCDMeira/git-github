@@ -592,4 +592,78 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
     Esses recursos permitem fazer uma busca mais focada nos commits feitos. 
 </p>
 
+</br>
+<a name="id07.3"></a>
+<h2>7.1 - Git add</h2>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
+</br>
+
+<p>
+    O comando <strong>git add</strong> permite adicionar os arquivos e diretórios para o estado de tracked, ou seja, monitorados. Há diversas formas diferentes de se usar o comando, divergindo o comportamento do mesmo.
+</p>
+
+<strong>Adicionar um arquivo ou diretório</strong>
+
+<p>git add caminho_do_arquivo-diretorio</p>
+<p>
+    Um exemplo para algo que esteja na raiz.
+</p>
+
+<strong>
+    Para o arquivo readme que está na raiz.
+</strong>
+<p>
+    git add readme.md
+</p>
+<strong>
+    Para o diretório images que está na raiz.
+</strong>
+<p>
+    git add images/
+</p>
+
+<strong>
+    Adicionar todos arquivos e diretórios novos, modificados e deletados. do diretório atual em diante.
+</strong>
+<p>git add .</p>
+<p>
+    Ao usar o ponto, todos os arquivos e pastas são registrados. Sejam novos arquivos, as mudanças feitas em um arquivo já monitorado ou mesmo arquivos que foram deletados. Todas alterações são computadas.
+</p>
+<p>
+    Um ponto de alerta para usar o ponto é que se estiver dentro de um diretório no projeto e não na raiz. As alterações que serão contadas é do ponto do projeto em que se está em diantes (pastas e arquivos dentro da pasta atual).
+</p>
+
+<strong>
+    Adicionar todos arquivos e diretórios todos arquivos, da raiz em diante
+</strong>
+<p>git add --all ou git add -A </p>
+<p>
+    Usar --all ou -A garante o mesmo comportamento do git add . com a diferença que o ponto de partida vai ser a raiz do projeto. Sendo sempre adicionada todas as alterações do projeto.
+</p>
+
+<strong>
+    Adicionar no Stage apenas arquivos modificados e removidos, não adicionando os novos arquivos.
+</strong>
+<p>
+    git add -u
+</p>
+<p>
+    A flag -u faz com que os novos arquivos não tenham suas mudanças adicionadas. Apenas arquivos que já existiam, e pode haver alterações no arquivo ou mesmo o a ação de deletar o arquivo todo.
+</p>
+
+<strong>
+    Adicionar todos arquivos novos e diretórios, do repositório em diante. Mas não conta os arquivos deletados.
+</strong>
+<p>git add * </p>
+
+<p>
+    O git add * não computa deleções, e por isso serve um grande aviso aqui, dependendo de como estiver seu projeto, usar muito o comando com o asterisco irá gerar conflitos. Pois o uso de pull e push não irão contar arquivos deletados, e isso pode conflitar em algum momento (tende fortemente a gerar conflitos).
+</p>
+
+<p>
+    Em pesquisas vi dizeres de que o comando com o asterisco não adicionava arquivos começados em . também, mas nos testes que fiz a única diferença dele para o git add . foi não computar deleções.
+</p>
+
 <br>[⬆ Voltar ao top](#inicio) <br>
