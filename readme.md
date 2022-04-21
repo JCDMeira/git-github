@@ -26,6 +26,7 @@
   - [7.6 - Git pull](#id07.6)
   - [7.7 - Git checkout](#id07.7)
   - [7.8 - Git merge](#id07.8)
+- [8.0 - gitignore](#id08.0)
 
 </br>
 <p>
@@ -865,6 +866,78 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
 
 <p>
     Isso também é possível de fazer na interface online, mas não vem ao caso no momento.
+</p>
+
+</br>
+<a name="id08.0"></a>
+<h2>8.0 - gitignore</h2>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
+</br>
+
+<p>
+    O arquivo .gitignore serve para ignorar arquivos e suas mudanças. O git não irá "olhar" para arquivos ou diretórios inseridos no corpo do arquivo chamado .gitignore, sendo assim não são assistidos ou monitorados pelo git.
+</p>
+
+<p>
+    Alguns exemplos de maneiras de colocar estará abaixo.
+</p>
+
+<p>
+    Ignorar um arquivo
+</p>
+<p>
+    <strong>
+        teste.js
+    </strong>
+</p>
+
+<p>
+    Ignorar todos os arquivos da mesma extensão
+</p>
+<p>
+    <strong>
+        *.js
+    </strong>
+</p>
+
+<p>
+    Ignorar diretórios 
+</p>
+<p>
+    <strong>
+        images/
+    </strong>
+</p>
+
+<p>
+    Ignorar diretórios (buscando sub-diretórios também)
+</p>
+<p>
+    <strong>
+        **images
+    </strong>
+</p>
+
+<p>
+    Também é possível 'instalar' uma versão padrão de .gitignore
+</p>
+<p>
+    Para isso basta rodar o seguinte comando no seu projeto
+</p>
+
+<p>
+    <strong>
+        npx gitignore node
+    </strong>
+</p>
+
+<p>
+    O arquivo virá com diversos cases padrões tendo em conta o node para esse caso, e é possível adicionar ou remover o que desejar do corpo do arquivo.
+</p>
+<p>
+    E para qualquer gitignore, é possível usar # para criar comentários.
 </p>
 
 <br>[⬆ Voltar ao top](#inicio) <br>
