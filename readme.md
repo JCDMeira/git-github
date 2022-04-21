@@ -666,4 +666,36 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
     Em pesquisas vi dizeres de que o comando com o asterisco não adicionava arquivos começados em . também, mas nos testes que fiz a única diferença dele para o git add . foi não computar deleções.
 </p>
 
+</br>
+<a name="id07.4"></a>
+<h2>7.4 - Git commit</h2>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
+</br>
+
+<p>
+    commits são a passagem dos arquivos que estão trackeados para o estatus staged.
+    Deixando eles prontos para enviar ou submeter para o repositório remoto (principal).
+</p>
+<p>
+    Os commits são o ato de efetivar as mudanças feitas, sejam ela alterações, remoções ou adições.
+</p>
+<p>
+    O commit cria uma espécie de "fotografia" do momento atual do projeto, e essa fotografia é marcada por um hash_id. Que nada mais é que uma sequencia alfa numérica única, que define aquele momento do projeto. 
+</p>
+<p>
+    Com momento se entende o estado que cada arquivo tinha, a estrutura de pastas e tudo que o projeto continha naquele commit. Sendo possível assim criar um histórico de alterações e voltar a um determinado commit se necessário.
+</p>
+
+<p>
+    Em geral nos commmits se passa uma mensagem, através da flag -m, essa mensagem fala de modo resumido o que foi a alteração causada por aquele commit.
+</p>
+
+<p>
+    <strong>
+        gi commit -m 'mensagem do commit'
+    </strong>
+</p>
+
 <br>[⬆ Voltar ao top](#inicio) <br>
