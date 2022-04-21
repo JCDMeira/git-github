@@ -698,4 +698,52 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
     </strong>
 </p>
 
+</br>
+<a name="id07.5"></a>
+<h2>7.5 - Git push</h2>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
+</br>
+
+<p>
+    O git push envia as alterações commitadas localmente para o repositório marcado como a origin remota. Do ingles push é empurrar, e é de certa forma isso que é feito, os commits são "empurrados" para o repositório remoto.
+</p>
+
+<p>
+    <strong>
+        git push
+    </strong>
+</p>
+
+<p>
+    Uma informação importante é que geralmente o push precisa indicar a origin a qual se quer enviar os commits. Que geralmente será a branch que se quer que receba os commits.
+</p>
+
+<p>
+    <strong>
+        git push origin minha_origin
+    </strong>
+</p>
+
+<p>
+    Para facilitar é possivel configurar uma origin para aquela branch. E assim ela fica salva e todo commit após isso fica direcionado aquela origin.
+</p>
+
+<p>
+    <strong>
+        git push --set-upstrean origin minha_origin
+    </strong>
+</p>
+
+<p>
+    O que também pode ser feito usando a flag -u que vem de upstrean
+</p>
+
+<p>
+    <strong>
+        git push -u origin minha_origin
+    </strong>
+</p>
+
 <br>[⬆ Voltar ao top](#inicio) <br>
