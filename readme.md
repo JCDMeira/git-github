@@ -24,7 +24,8 @@
   - [7.4 - Git commit](#id07.4)
   - [7.5 - Git push](#id07.5)
   - [7.6 - Git pull](#id07.6)
-  - [7.7 - Git checkout](#i07.7)
+  - [7.7 - Git checkout](#id07.7)
+  - [7.8 - Git merge](#id07.8)
 
 </br>
 <p>
@@ -840,6 +841,30 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
 </p>
 <p>
     <strong>git branch -D minha_branch</strong>
+</p>
+
+</br>
+<a name="id07.8"></a>
+<h2>7.8 - Git merge</h2>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
+</br>
+
+<p>
+    O comando merge uni dois ramos, depositando as alterações de um ramo no ramo atual, ou seja, pega as alterações commitadas de um ramo e mescla no ramo em que estamos nesse momento.
+</p>
+
+<p>
+    Se estivermos em master e usarmos o comando a seguir, mesclariamos as alterações de minha_branch em master.
+</p>
+
+<p>
+    <strong>git merge minha_branch</strong>
+</p>
+
+<p>
+    Isso também é possível de fazer na interface online, mas não vem ao caso no momento.
 </p>
 
 <br>[⬆ Voltar ao top](#inicio) <br>
