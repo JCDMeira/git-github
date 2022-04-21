@@ -746,4 +746,47 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
     </strong>
 </p>
 
+</br>
+<a name="id07.6"></a>
+<h2>7.6 - Git pull</h2>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
+</br>
+
+<p>
+    O git pull serve para atualizar seu repositório local com as alterações do remoto. Pull do inglês é puxar, então é o mesmo que literalmente "puxar" as novas alterações que existem no remoto.
+</p>
+<p>
+    É muito útil quando se trabalhar em equipe ou quando se faz alguma alteração diretamente no remoto. 
+</p>
+<p>
+    O comando indica de onde do repositório remoto se quer puxar os dados e qual branch local vai receber.
+</p>
+
+<p>
+    <strong>git pull (remote) (branch)</strong>
+</p>
+
+<p>
+    No caso de origin se trata da origin setada para essa branch
+</p>
+<p>
+    <strong>git pull origin master</strong>
+</p>
+
+<p>
+    Se passado apenas um argumento se trata do local remoto, sendo entendido como o local será a branch atual.
+</p>
+<p>
+    <strong>git pull (remote)</strong>
+</p>
+
+<p>
+    Sem argumento algum trata da referência da branch atual, tanto pegar dados da origin configurada para branch. quando a própria branch em que estamos para receber.
+</p>
+<p>
+    <strong>git pull </strong>
+</p>
+
 <br>[⬆ Voltar ao top](#inicio) <br>
