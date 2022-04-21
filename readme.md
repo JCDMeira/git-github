@@ -24,7 +24,7 @@
   - [7.4 - Git commit](#id07.4)
   - [7.5 - Git push](#id07.5)
   - [7.6 - Git pull](#id07.6)
-  - [7.7 - Git checkout](#i70.7)
+  - [7.7 - Git checkout](#i07.7)
 
 </br>
 <p>
@@ -787,6 +787,59 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
 </p>
 <p>
     <strong>git pull </strong>
+</p>
+
+</br>
+<a name="id07.7"></a>
+<h2>7.7 - Git checkout</h2>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
+</br>
+
+<p>
+    git checkout é o comando que nos permite navegar entre as diversas branchs do projeto.
+</p>
+<p>
+    Branch vem do inglês, significa ramo. Ter múltiplas branchs é como ter diversas linhas do tempo num projeto. Podendo ter cada qual o seu objetivo único. Uma branch vai compartilhar os arquivos da branch que originou ela. Ou seja, ao criar um branch chamada minha_branch a partir do ramo master, temos tudo que ocorreu no ramo master na branch minha_branch também. 
+</p>
+<p>
+    Porém vale lembrar que tudo que ocorrer em master após a criação de minha_branch não estará disponível em minha_branch. Assim como o que for criado nesse novo ramo também não estará em master.
+</p>
+<p>
+    A não ser que comandos como pull ou merge (entre outros) sejam usados para fazer os ramos terem o que o outro criou após a separaçao da linha do tempo.
+</p>
+
+<p>
+    E é justamento o checkout que permite a navegação pelas branchs. O comando a seguir sairia do ramo atual para o chamado de minha_branch.
+</p>
+<p>
+    <strong>git checkout minha_branch</strong>
+</p>
+
+<p>
+    Se acaso quiser criar uma branch é possível usar a flag -b no comando checkout.
+</p>
+<p>
+    <strong>git checkout -b minha_nova_branch</strong>
+</p>
+
+<p>
+    O comando acima criaria uma branch chamada minha_nova_branch
+</p>
+
+<p>
+    Se não quiser mais usar uma branch é possível ainda apagar a mesma, usando o comando branch com a flag -d
+</p>
+<p>
+    <strong>git branch -d minha_branch</strong>
+</p>
+
+<p>
+    Porém dessa forma só é possível deletar branchs que não contenham alterações a serem commitadas. Acaso se queira deletar branchs com alterações ainda por commitar se deve forçar a deleção, usando o D maiúsculo.
+</p>
+<p>
+    <strong>git branch -D minha_branch</strong>
 </p>
 
 <br>[⬆ Voltar ao top](#inicio) <br>
