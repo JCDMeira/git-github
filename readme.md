@@ -27,6 +27,7 @@
   - [7.7 - Git checkout](#id07.7)
   - [7.8 - Git merge](#id07.8)
 - [8.0 - gitignore](#id08.0)
+- [9.0 - Conventional commits](#id09.0)
 
 </br>
 <p>
@@ -938,6 +939,97 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
 </p>
 <p>
     E para qualquer gitignore, é possível usar # para criar comentários.
+</p>
+
+</br>
+<a name="id09.0"></a>
+<h2>9.0 - Conventional commits</h2>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
+</br>
+
+<p>
+    Em projetos é muito comum se fazer um número incalculável de commits, ainda mais em projetos grandes que perduram ao longo do tempo. E isso resulta em uma necessidade, a padronização de commits, e aqui não é somente adequal um molde que todos que trabalham naquele projeto façam mensagens de commits parecidas. É mais sobre conseguir tirar informações úteis da mensagem do commit. 
+</p>
+<p>
+    Há uma necessidade que também é comentada para códigos, sejam para nomes de variváveis, funções e classes. Ou para a maneira geral de se escrever o código. Sempre há uma necessidade de semântica muito bem colocada.
+</p>
+<p>
+    No dicionário semântica é "Semântica é o estudo do significado. Incide sobre a relação entre significantes, tais como palavras, frases, sinais e símbolos, e o que eles representam, a sua denotação. A semântica linguística estuda o significado usado por seres humanos para se expressar através da linguagem." segundo a wikipédia. É nada mais que o sentido das palavras, e nesse caso, se o que se coloca de nomes dentro do código estão condizentes com seus funcionamentos dentro do arquivo e projeto. E acredite, a semântica ajuda demais na compreenção.
+</p>
+<p>
+    Para commits, semântica irá ajudar a entender melhor o que é feito de mudança naquele commit, ou seja, que tipo de alterações foram realizadas.
+</p>
+
+<p>
+    Portanto, os commits convencionais nada mais são que commits com semântica. E os mesmos não servem apenas para projetos grandes e com equipes. Se você quer melhorar a qualidade do seu desenvolvimento, deve usar os Conventional commits, subir o projeto todo em um commits não traz a história por trás do progresso do projeto.
+</p>
+<p>
+    Ao usar commits pequenos e bem colocados é possível mostrar todo o histórico e a maneira com que algo foi desenvolvido, de maneira muito mais clara e objetiva.
+</p>
+
+<p>
+    A estrutura esperada do commit é:
+</p>
+
+<p>
+    <strong>tipo(escopo |?| ): mensagem <p>(Mensagem com detalhes mais explicados |?| )</p> <p>footer |?| </p></strong>
+</p>
+<p>
+    Footer é para informações adicionais, podendo também passar closes #id_issue, para fazer o commit fechar issues automáticamente.
+</p>
+
+<p>
+    Sendo que os campos com |?| são opcionais.
+</p>
+
+<p>
+    As opções de tipo de commits são:
+</p>
+
+<ol>
+    <li>
+        <strong>feat</strong> - Um inclusão de um novo recurso (se relaciona com o MINOR do versionamento semântico, ou seja, são mudanças que não compõe um versão inteira, mas geral novos recursos, o mesmo que dizer que alterou a versão de um software de 1.0 para 1.1).
+    </li>
+    <li>
+        <strong>docs</strong> - Mudanças na documentação, No readme ou em outras docs. (Não inclui mudanças em arquivos de código).
+    </li>
+    <li>
+        <strong>style</strong> - Alterações referentes a formatações de código, semicolons, trailing spaces, lint... (espaço em branco, formatação, ponto e vírgula ausente etc.).
+    </li>
+    <li>
+        <strong>refactor</strong> - Mudança por refatorações de código, como por exemplo, uma alteração no formato como é processada determinada parte da tela, mas que manteve a mesma funcionalidade, melhorias de performance devido a um code review ou ainda melhorias da apresentação do código para melhor compreenção de desenvolvedores.
+    </li>
+    <li>
+        <strong>build</strong> - Commits do tipo build são utilizados quando são realizadas modificações em arquivos de build e dependências.
+    </li>
+    <li>
+        <strong>test</strong> - Altera arquivos de testes, seja criando, alterando ou excluindo testes unitários. (Não inclui alterações em código).
+    </li>
+    <li>
+        <strong>chore</strong> - Atualiza tarefas que não geram alterações no código de produção, mas mudanças de ferramentas, mudanças de configuração e bibliotecas que realmente não entram em produção. (Não inclui alterações em código).
+    </li>
+    <li>
+        <strong>perf</strong> - Vem de performance. altera códigos com objetivo de melhorar o desempenho.
+    </li>
+    <li>
+        <strong>ci</strong> - Altera arquivos e scripts de configuração de CI (exemplo: Travis, Circle, BrowserStack, SauceLabs).
+    </li>
+    <li>
+        <strong>env</strong> - basicamente utilizado na descrição de modificações ou adições em arquivos de configuração em processos e métodos de integração contínua (CI), como parâmetros em arquivos de configuração de containers.
+    </li>
+</ol>
+
+<p>
+    Exemplos de commits:
+</p>
+<p>
+    <strong>git commit -m "feat: add Home</strong>
+</p>
+
+<p>
+    <strong>git commit -m "fix(Home): Title <p>Corrige erro de tipografia</p> <p>closes #1</p></strong>
 </p>
 
 <br>[⬆ Voltar ao top](#inicio) <br>
