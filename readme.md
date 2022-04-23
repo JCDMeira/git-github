@@ -1161,4 +1161,95 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
     Use pra praticar e se estiver confortável, me fale o resultado depois.
 </p>
 
+</br>
+<a name="id010.2"></a>
+<h2>10.2 - Fluxo de desenvolvimento individual</h2>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
+</br>
+
+<p>
+    Esse segundo já segue um fluxo se você está trabalhando sozinho. Cheguei nele após conversar com um amigo que está a mais tempo no ramo, e comecei a usar bem antes de começar a trabalhar, acredite ou não, me ajudou bastante a desenvolver em equipe.
+</p>
+
+<p>
+    Aqui se presa o controle de branches. E a forma de criar o repositório pode até ser diferente, ou os passos podem ter variação, mas pra facilitar vou descrever próximo ao que foi o anterior.
+</p>
+
+<ol>
+    <li>
+        Abra o repositório sempre no gitHub;
+    </li>
+    <li>
+        Não crie o repositório com nenhum arquivo;
+    </li>
+    <li>
+        Crie uma pasta local;
+    </li>
+    <li>
+        Use git init na pasta;
+    </li>
+    <li>
+        Use o link http indicado após o repositório ser criado para conectar a pasta ao repositório remoto (se precisar volte a seção 6); 
+    </li>
+    <li>
+        Crie um readme.md detalhando seu projeto;
+    </li>
+    <li>
+        Use um git add .
+    </li>
+    <li>
+        Use git add commit -m 'initial commit'
+    </li>
+    <li>
+        Use git push -u origin master (ou mais se preferir);
+    </li>
+    <li>
+        Adicione a estrutura inicial do seu projeto se ela existir. (o conteúdo de npx create-react-app por exemplo ou qualquer boilerplate que você tenha);
+    </li>
+    <li>
+        Se adicionou uma estrutura use o processo de git add . , git commit -m 'Initial setup' e depois o git push;
+    </li>
+    <li>
+        Use o comando git checkout develop (ou development), criando assim sua branch de desenvolvimento;
+    </li>
+    <li>
+        Pode começar a criar e editar os arquivos e fazer os commits;
+    </li>
+    <li>
+        No primeiro push da branch de desenvolvimento use git push -u oringin developt (ou development);
+    </li>
+    <li>
+        Pode seguir desenvolvendo, repetindo o padrão add, commit e push. (O push agora não precisa do -u origin mastes, bastando apenas git push)
+    </li>
+    <li>
+        Após cada agrupamento de commits que complete algum propósito você fará o merge das alterações para master. Tendo duas opções.
+    </li>
+    <li>
+        Va para master com git checkout master, e use git merge develop. Depois use o git push na master e volte para a develop (esse evita alguns conflitos);
+    </li>
+    <li>
+        ou va na plataforma online do github e faça um pull-request de develop para master. Depois no local usar git pull na master, e volte para develop e siga programando;
+    </li>
+    <li>
+        Evite alterações direto no repositório online.
+    </li>
+</ol>
+
+<p>
+    Nesse caso, o fluxo esperado é sempre criar na branch de desenvolvimento e passar as alterações para a master depois.
+</p>
+
+<p>
+    Se puder já use os conventional commits.
+</p>
+<p>
+    Essa maneira também te permite já começar a aplicação e fazer o deploy, porque alterações na branch de desenvolvimento não irá disparar atualizações automáticas no deploy. Sendo que só irá ocorrer após os merges.
+</p>
+
+<p>
+    Há uma variação nesse caso que pode contér uma branch stage (staging), que irá refletir a master sempre, mas estará ligada a bancos de dados mirror e a condições que são possíveis quebrar ao fazer testes, ou que se mantenha um backup de master para testes. Sempre atualizando com certa periodicidade. Mas só vou citar para saber que existe, não sei que formas tanto podem ser usadas para criar esse formato.
+</p>
+
 <br>[⬆ Voltar ao top](#inicio) <br>
