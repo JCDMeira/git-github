@@ -1293,4 +1293,44 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
     É possível usar mais ou menos esse padrão sozinho, criando uma branch por tarefa com nomes relativos a tarefa, mas não terá a parte de comentários ou a necessidade de aprovações.
 </p>
 
+</br>
+<a name="id011.0"></a>
+<h2>11.0 - Encerramento e extras</h2>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
+</br>
+
+<p>
+    Fala galera, foi um prazer criar esse repositório, me ajudou a revisar e também a trazer assuntos a toda, permitindo que eu discutisse com outros devs e com diversas pessoas da área.
+</p>
+<p>
+    Espero que tenha sido útil pra todos que leram e te agradeço se você leu até aqui. Se gostou dê estrelas e compartilhe com outros desenvolvedores ou com quem está começando, isso me incentiva a criar mais coisas. E se sentir falta de algo me manda pelo linkedin que na medida do possível vou atualizando o repositório. Sei que ele não fala sobre tudo de git e que tem muito conteúdo a mais, seja sobre comando, táicas, dicas e até coisas além disso tudo.
+</p>
+
+<p>
+    E por isso vou deixar umas indicações de conteúdo extra também.
+</p>
+
+<p>
+    Se você quiser saber mais dos comandos, inclusive de vários que não comentei nesse repositório, esse link tem diversos deles, falando de modo separado dos básicos, intermediários e avançados.
+</p>
+<a href="https://www.codigofonte.com.br/artigos/top-25-comandos-do-git">Top 25 comandos do Git</a>
+
+<p>
+    O link a seguir é mais um tutorial abrangente, mas tem diversas coisas legais.
+</p>
+<a href="https://balta.io/blog/git-github-primeiros-passos">Git e GitHub - Instalação, Configuração e Primeiros Passos
+</a>
+
+<p>
+    Esse último é par você se testar usando git, é um "joguinho" bem divertido que te obrigará a usar git para solucionar os enigmas dentro do repositório git-game.
+</p>
+<a href="https://github.com/git-game/git-game">Git Game
+</a>
+
+<p>
+    Grato a todos, até uma próxima
+</p>
+
 <br>[⬆ Voltar ao top](#inicio) <br>
