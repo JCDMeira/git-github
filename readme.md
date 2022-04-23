@@ -1070,8 +1070,95 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
     Claro que o desenvolvedor tem que saber usar o terminal, porque não é sempre que você vai ter a interface gráfica para fazer uso dos recursos. E mais, se você utilizar a interface gráfica você vai clicar em botões você não vai conhecer os comandos, e se você não conhecer os comandos você não é nada. Primeiro deve masterizar os comandos do git no terminal, e depois entender como usar a interface gráfica.
 </q>
 
+<br>
+<br>
 <p>
     Então nos subcapítulos a seguir vou tentar te ajudar a pegar melhor o uso do git, ou pelo menos facilitar um pouco a sua vida ao usar o terminal. Claro, se permitar errar e gerar os comportamentos loucos que você vai ter que resolver, mas também espero que meus comentários lhe sejam úteis. As pessoas costumam falar que tenho métodos meio espartanos (já ouvi isso muitas vezes ao falar de git kk). Mas ainda acho melhor apanhar usando o terminal no começo a me acostumar com um anestésico que vai apenas ser um paleativo, vai facilitar a vida no momento e até me tornar dependente, porém nunca vai solucionar a causa (falta de costume e/ou conhecimento).
+</p>
+
+</br>
+<a name="id010.1"></a>
+<h2>10.1 - Fluxo iniciante - aprendendo a usar git</h2>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
+</br>
+
+<p>
+    Esse primeiro fluxo de trabalho é pensando em quem está aprendendo. É o que vejo como mais simples, mas ainda tem alguns pontos a se tomar cuidado, porque pode gerar confusão ou conflitos nos arquivos se não pensar nisso.
+</p>
+
+<p>
+    Aqui, se você ainda está aprendendo te recomendo algo que vai te ajudar bastante a tirar boa parte do peso. É o que pode ser chamado de mínimo ridiculo possível.
+</p>
+<p>
+    A ideia vai ser, para não ter que ficar pensando em que commitar ou que tipo de projeto fazer e como fazer os commits, que ordem, em que padrão ou qualquer coisa do tipo. Você só vai commitar e fazer push, não importa o padrão da mensagem.
+</p>
+<p>
+    E para não pensar no projeto e esses detalhes, você vai criar commits de algum curso que estiver fazendo. 
+</p>
+<p>
+    Teve exercício ? faz o exercício em um arquivo e commita ele.
+</p>
+<p>
+    Fez aula, faz um arquivo e faz commentários da aula no arquivo.
+</p>
+<p>
+    Aqui nessa parte, seu repositório pode ser o mesmo título do curso. E até pode ser um commit por aula vista. A ideia é pegar costume usando git via terminal aumentando bastante o uso.
+</p>
+
+<p>
+    Já aviso, não é a forma ideal e quanto antes você deve começar a fazer projetos, mesmo que pequenos. Não torne commitar aulas um padrão ou uma dependência, pode lhe servir até mesmo após pegar maior compreensão e estar fazendo projetos, pois vai criar notas consistentes dos seus insights de um conteúdo, e estará hospedado no gitHub (ou algum outro banco de repositórios). Mas é diferente de estruturar e fazer um projeto.
+</p>
+<p>
+    E por isso é o mínimo ridiculo possível.
+</p>
+
+<p>
+    Quanto aos passos e cuidados que falei, eles são o seguinte:
+</p>
+<ol>
+    <li>
+        Abra o repositório sempre no gitHub;
+    </li>
+    <li>
+        Não crie o repositório com nenhum arquivo;
+    </li>
+    <li>
+        Crie uma pasta local;
+    </li>
+    <li>
+        Use git init na pasta;
+    </li>
+    <li>
+        Use o link http indicado após o repositório ser criado para conectar a pasta ao repositório remoto (se precisar volte a seção 6); 
+    </li>
+    <li>
+        Crie um readme.md detalhando seu projeto;
+    </li>
+    <li>
+        Use um git add .
+    </li>
+    <li>
+        Use git add commit -m 'initial commit'
+    </li>
+    <li>
+        Use git push -u origin master (ou mais se preferir)
+    </li>
+    <li>
+        Pode começar a criar e editar os arquivos e fazer os commits sempre repetindo o padrão add, commit e push. (O push agora não precisa do -u origin mastes, bastando apenas git push)
+    </li>
+    <li>
+        Não crie alterações direto no repositório online.
+    </li>
+</ol>
+
+<p>
+    Esse fluxo fará com que a criação e conexão dos repositórios seja simples e você não corre o risco de tornar o remoto mais atualizado que o local, que pode ocasionar conflitos ou não deixar o push ser completado. E também limita o número de ações (nem precisa se preocupar com semântica dos commits ou em usar os add's diferentes).
+</p>
+
+<p>
+    Use pra praticar e se estiver confortável, me fale o resultado depois.
 </p>
 
 <br>[⬆ Voltar ao top](#inicio) <br>
