@@ -32,6 +32,7 @@
   - [10.1 - Fluxo iniciante - aprendendo a usar git](#id10.1)
   - [10.2 - Fluxo de desenvolvimento individual](#id10.2)
   - [10.3 - Workflow esperado em equipes](#id10.3)
+- [11.0 - Encerramento e extras](#id11.0)
 
 </br>
 <p>
@@ -1037,7 +1038,7 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
 </p>
 
 </br>
-<a name="id010.0"></a>
+<a name="id10.0"></a>
 <h2>10.0 - git workflow</h2>
 <div align='right'>
     <a href="#inicio">⬆ Voltar ao top</a>
@@ -1077,7 +1078,7 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
 </p>
 
 </br>
-<a name="id010.1"></a>
+<a name="id10.1"></a>
 <h2>10.1 - Fluxo iniciante - aprendendo a usar git</h2>
 <div align='right'>
     <a href="#inicio">⬆ Voltar ao top</a>
@@ -1162,7 +1163,7 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
 </p>
 
 </br>
-<a name="id010.2"></a>
+<a name="id10.2"></a>
 <h2>10.2 - Fluxo de desenvolvimento individual</h2>
 <div align='right'>
     <a href="#inicio">⬆ Voltar ao top</a>
@@ -1250,6 +1251,46 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
 
 <p>
     Há uma variação nesse caso que pode contér uma branch stage (staging), que irá refletir a master sempre, mas estará ligada a bancos de dados mirror e a condições que são possíveis quebrar ao fazer testes, ou que se mantenha um backup de master para testes. Sempre atualizando com certa periodicidade. Mas só vou citar para saber que existe, não sei que formas tanto podem ser usadas para criar esse formato.
+</p>
+
+</br>
+<a name="id10.3"></a>
+<h2>10.3 - Workflow esperado em equipes</h2>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
+</br>
+
+<p>
+    Esse já é o mais complexo de certa forma. A ideia aqui é que será criado uma branch por tarefa, sejam features, correções de bug ou refatorações. Sempre irá criar uma branch para executar.
+</p>
+
+<p>
+    Muitas vezes não terá criação de repositório ou qualquer coisa do tipo, pois quando você chega o projeto já existe e roda a um tempo que não da pra dizer (depende do projeto/empresa que você chegou).
+</p>
+
+<p>
+    A única coisa que quero dizer aqui, é que no geral features em geral vão ter suas branchs criadas da branch mirror ou da branch de ambiente do seu squad, enquanto correções de bugs são de branchs criadas a partir da master.
+</p>
+
+<p>
+    Esse fluxo também requer aprovações. Como na imagem abaixo, que representa o fluxo todo esperado. (pode variar dependendo da empresa/equipe).
+</p>
+
+<div align='center'>
+    <img width="800px" src="./images/workflow.png" alt="git and gitHub">
+</div>
+
+<p>
+    Em resumo: A branch da tarefa é criad; O trabalho em si é feito (passando por vários git add, commit e push); Um pull request (PR) é aberto, solicitando mesclar a branch da tarefa com a de destino (pode não ser a master, mas sim um ambiente de testes); Se discute o commit com os revisores (podendo ou não ter alterações necessárias); A PR ganha as aprovações necessárias; O merge acontece.
+</p>
+
+<p>
+    Esse são os passos esperados (ou mais ou menos eles, pois irá variar de lugar para lugar).
+</p>
+
+<p>
+    É possível usar mais ou menos esse padrão sozinho, criando uma branch por tarefa com nomes relativos a tarefa, mas não terá a parte de comentários ou a necessidade de aprovações.
 </p>
 
 <br>[⬆ Voltar ao top](#inicio) <br>
