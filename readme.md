@@ -28,6 +28,10 @@
   - [7.8 - Git merge](#id07.8)
 - [8.0 - gitignore](#id08.0)
 - [9.0 - Conventional commits](#id09.0)
+- [10.0 - git workflow](#id10.0)
+  - [10.1 - Fluxo iniciante - aprendendo a usar git](#id10.1)
+  - [10.2 - Fluxo de desenvolvimento individual](#id10.2)
+  - [10.3 - Workflow esperado em equipes](#id10.3)
 
 </br>
 <p>
@@ -1030,6 +1034,44 @@ git remote add origin https://github.com/JCDMeira/creando-rep.gi
 
 <p>
     <strong>git commit -m "fix(Home): Title <p>Corrige erro de tipografia</p> <p>closes #1</p></strong>
+</p>
+
+</br>
+<a name="id010.0"></a>
+<h2>10.0 - git workflow</h2>
+<div align='right'>
+    <a href="#inicio">⬆ Voltar ao top</a>
+</div>
+</br>
+
+<p>
+    Aqui nessa sessão quando falo em git workflow se trata de certas maneiras de se trabalhar com git, como a própria tradução seria, fluxos de trabalho com git. Ou seja, trabalhar com o versionamento de uma forma ou outra. 
+</p>
+<p>
+    Já adianto que essa parte terão mais de minhas opniões e minha vivência. Você leitor é livre para adotar ou não, concordar ou não. Enfim, trabalhar com o versionamento é algo que está no dia a dia do programador, seja trabalhando sozinho, com equipe ou mesmo ao fazer projetos testes e portfólio. E acredito que não haja exatamente um certo e errado, tudo vai se basear em padrões e formas adotadas.
+</p>
+
+<p>
+    Mas se você está começando a aprender programação, ou fazendo uma transição de carreira, como eu fiz em algum momento. Você pode estar se deparando com um mundo enorme de conteúdos distintos e ao mesmo tempo necessário e correlatos. Você pode estar vendo coisas de front-end como html, css, js e frameworks/bibliotecas ou mais a parte de back-end com rotas, métodos http, api's, end-point e além de todas essas coisas está tendo que ver git e versionamento de código. 
+</p>
+<p>
+    Sim, são várias coisas para aprender. E pode gerar um pouco de desconforto no começo. Principalmente o fato de usar o terminal para executar o git. E acredite, essa é uma reclamação que ouço muito do pessoal que está começando ou até de pessoas que já estão programando bem e não acostumaram a usar terminal para comandos git desde o começo. 
+</p>
+
+<p>
+    E se você leu esse repositório deve ter visto que eu acredito que usar o terminal é a maneira mais adequada de aprender. Mesmo com o desconforto inicial, é primordial usar o terminal e aprender os comandos, mesmo apanhando no começo. E agredite, usar coisas sem entender completamente os comportamentos me fez ter que resolver muitos conflitos, e até mesmo gerar vários comportamentos estranhos em commits, como duplicações, embaralhar linhas do tempo ou ficar tendo que arrumar conflitos entre remoto e local. Mas acredite, apesar da raiva momentânea, isso me fez crescer muito e aprender cada vez. Sendo que até hoje contínuo aprendendo.
+</p>
+
+<p>
+    Recentemente fiz um mini curso de git e o instrutor chegou a mostrar o uso da interface, mas antes disse ele disse algo mais ou menos como:
+</p>
+
+<q>
+    Claro que o desenvolvedor tem que saber usar o terminal, porque não é sempre que você vai ter a interface gráfica para fazer uso dos recursos. E mais, se você utilizar a interface gráfica você vai clicar em botões você não vai conhecer os comandos, e se você não conhecer os comandos você não é nada. Primeiro deve masterizar os comandos do git no terminal, e depois entender como usar a interface gráfica.
+</q>
+
+<p>
+    Então nos subcapítulos a seguir vou tentar te ajudar a pegar melhor o uso do git, ou pelo menos facilitar um pouco a sua vida ao usar o terminal. Claro, se permitar errar e gerar os comportamentos loucos que você vai ter que resolver, mas também espero que meus comentários lhe sejam úteis. As pessoas costumam falar que tenho métodos meio espartanos (já ouvi isso muitas vezes ao falar de git kk). Mas ainda acho melhor apanhar usando o terminal no começo a me acostumar com um anestésico que vai apenas ser um paleativo, vai facilitar a vida no momento e até me tornar dependente, porém nunca vai solucionar a causa (falta de costume e/ou conhecimento).
 </p>
 
 <br>[⬆ Voltar ao top](#inicio) <br>
